@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+}
+.header {
+    background-image: linear-gradient(to right, #672280 , #A626D3);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 3% 5%;
+    justify-items: end;
+    font-size: 2rem;
+}
+.header div {
+    display: grid;
+    grid-template-columns: 1fr minmax(80%, 1fr);
+    align-items: center;
+    justify-self: start;
+}
+.header img {
+    width: 5rem;
+}
+.meme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 3rem;
+    gap: 1rem;
+}
+.meme button {
+    grid-column: 1/3;
+    height: 3rem;
+    background-image: linear-gradient(to right, #672280 , #A626D3);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+.meme input {
+    height: 3rem;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0.5rem;
+    text-indent: 0.5rem;
+}
+.memeImg {
+    width: 100%;
+    grid-column: 1/3;
+    justify-self: center;
+}

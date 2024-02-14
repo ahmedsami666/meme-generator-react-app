@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/meme-generator-react-app/static/js/main.fb8ccda1.js",
+    "index.html": "/meme-generator-react-app/index.html",
+    "main.fb8ccda1.js.map": "/meme-generator-react-app/static/js/main.fb8ccda1.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fb8ccda1.js"
+  ]
+}
